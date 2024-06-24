@@ -134,10 +134,6 @@ body {
     cursor: pointer;
 }
 
-.button:hover {
-    background-color:#3285a8;
-    transition: 0.3s;
-}
 
 .container__subtitle {
     color: var(--cor-secundaria);
