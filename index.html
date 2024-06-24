@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jankenpon Game</title>
+    <link rel="stylesheet" href="style/reset.css">
+    <link rel="stylesheet" href="style/style.css">
+</head>
+<body>
+    <header></header>
+    <main class="container">
+        <section class="container__game">
+            <div class="container__image">
+                <img src="img/jokenpon.png" alt="Jokenpon text">
+            </div>
+            <h1 class="container__text"></h1>
+            <div class="container__items">
+                <img class="pc-enemy" id ="pc-enemy_id "src="img/pc_enemy.png" alt="Logo pc_enemy">
+            </div>
+            <div class="progress-bar"></div>
+            <div class="container__items">
+                <label class="image-input">
+                    <input type="radio" name="choice" id ="scissorCheck" value="scissor">
+                    <img src="img/scissor-closed.png" alt="Logo closed scissor-close">
+                </label>
+                <label class="image-input">
+                    <input type="radio" name="choice" id="rockCheck" value="rock">
+                    <img src="img/rock-normal.png" alt="Logo Rock">
+                </label>
+                <label class="image-input">
+                    <input type="radio" name="choice" id="paperCheck" value="paper">
+                    <img src="img/paper-normal.png" alt="Logo Paper">
+                </label>
+            </div>
+            <button class="button" type="button" onclick="checkMove()"></button>
+            <div class="container__text">
+                <h2><strong>Rules:</strong></h2>
+                <ul>
+                    <li>Rock beats Scissors.</li>
+                    <li>Scissors beats Paper.</li>
+                    <li>Paper beats Rock.</li>
+                </ul>
+            </div>
+            <div class="container__social">
+                <h2 class="container__text">Connect with me on Social Media!</h2>
+                <div class="container_logos">
+                    <a class="container_social_links" href="https://github.com/theusalvesn" target="_blank"> 
+                        <img src="img/github_pixel.png" alt="Logo github"> Github
+                    </a>
+                    <a class="container_social_links" href="https://www.linkedin.com/in/dev-alvesmatheus/" target="_blank">
+                        <img src="img/logo_pixel_linkedin.webp" alt="Logo Linkedin">Linkedin
+                    </a>
+                </div>
+            </div>
+        </section>
+    </main>
+   
+    <script src="script/script.js" defer></script>
+</body>
+</html>
+    
