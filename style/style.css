@@ -172,6 +172,7 @@ body {
     .button {
         width: 100%;
         padding: 24.5px;
+        color: black;
     }
     
     .progress-bar {
